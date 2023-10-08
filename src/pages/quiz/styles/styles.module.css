@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+}
+
+.cardWrapper {
+  width: 100%;
+  max-width: 90vw;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: #97a2ba 0px 0px 5px 0px;
+  padding: 10px 20px !important;
+  border-radius: 10px;
+}
+
+.questionText {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.points {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.check {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.leftBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 80%;
+  height: 100%;
+}
