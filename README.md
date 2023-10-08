@@ -62,10 +62,10 @@ npm test -- --coverage
 
 ## Run the docker image
 
-1. For the creation of the docker image
+1. For the creation of the docker image we used
 
 ```sh
-sudo docker run -p 3000:3000 quiz
+docker build -t quiz-tech-assessment .
 ``````
 
 2. Run on bash
