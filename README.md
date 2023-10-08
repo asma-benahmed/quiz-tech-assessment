@@ -65,7 +65,7 @@ npm test -- --coverage
 1. For the creation of the docker image we used
 
 ```sh
-docker build -t quiz-tech-assessment .
+docker build -t quiz .
 ``````
 
 2. Run on bash
