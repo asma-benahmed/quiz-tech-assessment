@@ -74,6 +74,6 @@ docker build -t quiz .
 sudo docker run -p 3000:3000 quiz
 ```
 
-3. Open o the browser 
+3. Open on the browser 
 
 http://localhost:3000
